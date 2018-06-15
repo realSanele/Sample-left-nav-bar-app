@@ -1,0 +1,13 @@
+<form>
+  <label>Email</label><br>
+  <input type="email" name="email" [(ngModel)]="Email" placeholder="e.g abc@xyz.com"><br>
+  <label>Name</label><br>
+  <input type="text" name="name" [(ngModel)]="Name" placeholder="e.g Shakes"><br>
+  <label>Surname</label><br>
+  <input type="text" name="surname" [(ngModel)]="Surname" placeholder="e.g Zulu"><br>
+  <label>Age</label><br>
+  <input type="number" name="age" [(ngModel)]="Age" placeholder="e.g 55"><br>
+  <label>Gender</label><br>
+  <input type="text" name="gender" [(ngModel)]="Gender" placeholder="e.g Male/Female"><br>
+  <input type="submit" (click)="register()" value="Submit">
+</form>
